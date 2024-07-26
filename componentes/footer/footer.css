@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+footer {
+    border-top: solid rgb(206, 1, 1) 1px;
+    background-color: rgb(229, 229, 229);
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+ 
+footer a {
+    text-decoration: none;
+    
+}
+
+footer h3 {
+    display: none;
+    position:absolute;
+    
+    
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    padding:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+div {
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 2%;
+    
+}
+
+
