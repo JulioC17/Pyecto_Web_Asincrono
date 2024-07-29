@@ -25,7 +25,8 @@ li{
 
 main{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20%;
+    height: 100%
 }
 
  li :hover{

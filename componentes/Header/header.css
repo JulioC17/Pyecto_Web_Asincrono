@@ -6,6 +6,7 @@
 
 header{
 display: flex;
+flex-wrap: wrap;
 gap:5px;   
 padding: 15px; 
 justify-content: center;
@@ -29,6 +30,7 @@ header input {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(171,164,164,1);
 -moz-box-shadow: 10px 10px 5px 0px rgba(171,164,164,1);
 box-shadow: 7px 7px 5px 0px rgba(171,164,164,1);
+font-size: 20px;
 
 }
 
@@ -61,3 +63,23 @@ header button {
 box-shadow: 7px 7px 5px 0px rgba(171,164,164,1);
 
 }
+
+@media (max-width: 700px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } 
+
+    header button {
+        width: 50%;
+    }
+
+    header select {
+        width: 50%;
+    }
+
+
+
+    
+  }
